@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FiveRoomShop.Authorization.Microservice", "FiveRoomShop.Authorization.Microservice", "{EAFC45A6-BB33-4C6E-AD99-A55494125B5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FiveRoomShop.Notification.Microservice", "FiveRoomShop.Notification.Microservice", "{FD8A994B-3CB9-486A-BC76-6F61C02BD612}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FiveRoomShop.Shop.Microservice", "FiveRoomShop.Shop.Microservice", "{06F7DA8B-30DC-4C4E-9579-005AB77E800F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FiveRoomShop.WebUI", "FiveRoomShop.WebUI", "{C2E1C51D-5E1F-4862-AE1B-B2862BC22C6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.Microservice.Core", "Authorization.Microservice.Core\Authorization.Microservice.Core.csproj", "{24EA69FF-0F01-4778-9F16-1E1195553590}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notification.Microservice.Core", "Notification.Microservice.Core\Notification.Microservice.Core.csproj", "{90DBE576-734A-4BA4-A52B-A2FEF4EF24D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Microservice.Core", "Shop.Microservice.Core\Shop.Microservice.Core.csproj", "{B5695E5C-1726-4912-ABEA-900E71F334DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{24EA69FF-0F01-4778-9F16-1E1195553590} = {EAFC45A6-BB33-4C6E-AD99-A55494125B5C}
+		{90DBE576-734A-4BA4-A52B-A2FEF4EF24D7} = {FD8A994B-3CB9-486A-BC76-6F61C02BD612}
+		{B5695E5C-1726-4912-ABEA-900E71F334DC} = {06F7DA8B-30DC-4C4E-9579-005AB77E800F}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24EA69FF-0F01-4778-9F16-1E1195553590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24EA69FF-0F01-4778-9F16-1E1195553590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24EA69FF-0F01-4778-9F16-1E1195553590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24EA69FF-0F01-4778-9F16-1E1195553590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90DBE576-734A-4BA4-A52B-A2FEF4EF24D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90DBE576-734A-4BA4-A52B-A2FEF4EF24D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90DBE576-734A-4BA4-A52B-A2FEF4EF24D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90DBE576-734A-4BA4-A52B-A2FEF4EF24D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5695E5C-1726-4912-ABEA-900E71F334DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5695E5C-1726-4912-ABEA-900E71F334DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5695E5C-1726-4912-ABEA-900E71F334DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5695E5C-1726-4912-ABEA-900E71F334DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
